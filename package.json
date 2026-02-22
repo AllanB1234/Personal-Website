@@ -20,7 +20,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "manual-deploy": "npm run build && git init && git add -A && git commit -m 'update' && git branch -m master && git push -f https://github.com/AllanB1234/Personal-Website.git master:gh-pages"
+    "manual-deploy": "npm run build && git init && git add -A && git commit -m 'update' && git branch -m master && git push -f https://github.com/AllanB1234/Personal-Website.git master:main"
   },
   "eslintConfig": {
     "extends": [
