@@ -1,4 +1,5 @@
 {
+  "homepage": "https://AllanB1234.github.io/Personal-Website",
   "name": "personal-profile",
   "version": "0.1.0",
   "private": true,
@@ -14,9 +15,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "manual-deploy": "npm run build && git init && git add -A && git commit -m 'update' && git branch -m master && git push -f https://github.com/AllanB1234/Personal-Website.git master:gh-pages"
   },
   "eslintConfig": {
     "extends": [

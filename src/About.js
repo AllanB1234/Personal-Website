@@ -15,7 +15,7 @@ class About extends Component {
         <div className="about-section">
 
           <div className="image-container">
-            <img src={pic} alt="image" className="image" />
+            <img src={pic} className="image" />
           </div>
 
           <div className="about-description">
