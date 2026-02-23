@@ -29,7 +29,7 @@ class Portfolio extends Component {
         {
           //Use this section to list your projects dynamically from state using the map function
           this.state.projects.map((project, index) => (
-            <div className="project-card" key={index}>
+            <div className="project-box" key={index}>
               <img src={project.project_image} className="project-image" />
               <h2>{project.title}</h2>
               <p>{project.description}</p>

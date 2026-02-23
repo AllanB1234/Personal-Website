@@ -12,9 +12,9 @@ class About extends Component {
       <div>
         <h1 className="about-title">About Me</h1>
 
-        <div className="about-section">
+        <div className="about-box">
 
-          <div className="image-container">
+          <div className="image-box">
             <img src={pic} className="image" />
           </div>
 
@@ -24,7 +24,7 @@ class About extends Component {
             <p>Outside of academics, I have a keen interest in cars, sneakers, and music, always looking for ways to apply data science to my passions. I'm eager to connect with like-minded professionals and explore opportunities in AI research and industry applications.</p>
 
             <p>Skills & Technologies:</p>
-            <div className="skills-categories">
+            <div className="skills-pills">
               {/* Skills Section */}
               <div className="skill-list">
                 {skills["Programming Languages"].map((skill, skillIndex) => (
